@@ -35,22 +35,6 @@ void uwu::on_OpenButton_clicked()
     ui->AuthorName->setText(Image.text("Author"));
     ui->CopyrightInfo->setText(Image.text("Copyright"));
 
-    /*FilePath = fileName.toStdString();
-    File.open(fileName.toStdString().c_str(), std::ios::in);
-       if (File.is_open()) {
-           Lines.clear();
-           std::string line;
-           while (getline(File, line)) {
-               Lines.push_back(line);
-           }
-           File.close();
-
-       } else {
-           output << "ERROR";
-       }
-
-       */
-
 
 
     LoadedImage = new QFile(fileName);
